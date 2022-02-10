@@ -47,7 +47,7 @@ window.onload = function(){
                 e.key == "t" || e.key == "T" ? estadoSecreto++ : (estadoSecreto = 0);
                 break;
             case 6:
-                e.key == "o" || e.key == "O" ? alert('Secreto Mágico') : (estadoSecreto = 0);
+                e.key == "o" || e.key == "O" ? alert('SECRETO MÁGICO') : (estadoSecreto = 0);
                 break;
             default:
                 break;
