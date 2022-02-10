@@ -26,27 +26,28 @@ window.onload = function(){
     //*Evento de teclado, cuando levanta una tecla
     tituloFormulario.addEventListener('keyup', (e) =>{
         switch (estadoSecreto) {
+            // aclaro mayúscula y minúscula, sino solo toma un tipo de letra
             case 0:
-                e.key == "s" ? estadoSecreto++ : (estadoSecreto = 0);
+                e.key == "s" || e.key == "S" ? estadoSecreto++ : (estadoSecreto = 0);
                 break;
                 //*Si la tecla es "s" le sumo 1 al estado inicial, sino es "s" dejo el estado en cero
             case 1:
-                e.key == "e" ? estadoSecreto++ : (estadoSecreto = 0);
+                e.key == "e" || e.key == "E" ? estadoSecreto++ : (estadoSecreto = 0);
                 break;
             case 2:
-                e.key == "c" ? estadoSecreto++ : (estadoSecreto = 0);
+                e.key == "c" || e.key == "C" ? estadoSecreto++ : (estadoSecreto = 0);
                 break;
             case 3:
-                e.key == "r" ? estadoSecreto++ : (estadoSecreto = 0);
+                e.key == "r" || e.key == "R" ? estadoSecreto++ : (estadoSecreto = 0);
                 break;
             case 4:
-                e.key == "e" ? estadoSecreto++ : (estadoSecreto = 0);
+                e.key == "e" || e.key == "E" ? estadoSecreto++ : (estadoSecreto = 0);
                 break;
             case 5:
-                e.key == "t" ? estadoSecreto++ : (estadoSecreto = 0);
+                e.key == "t" || e.key == "T" ? estadoSecreto++ : (estadoSecreto = 0);
                 break;
             case 6:
-                e.key == "o" ? alert('Secreto Mágico') : (estadoSecreto = 0);
+                e.key == "o" || e.key == "O" ? alert('Secreto Mágico') : (estadoSecreto = 0);
                 break;
             default:
                 break;

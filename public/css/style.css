@@ -75,6 +75,10 @@ figure {
   padding: 10px;
   border-radius: 10px;
 }
+.botonAgregar:hover{
+  color: #000;
+  background-color: #fff;
+}
 .botonBorrar {
   color: white;
   background-color: red;
@@ -86,6 +90,10 @@ figure {
   background-color: #00b7ff;
   padding: 10px;
   border-radius: 10px;
+}
+.botonVolver:hover{
+  color: #00b7ff;
+  background-color: #fff;
 }
 .formulario {
   margin: auto;
@@ -115,8 +123,9 @@ figure {
   position: fixed;
   width: 200px;
   height: 100%;
-  background-color: rgba(37, 37, 37, 0.88);
-  left: -200px;
+  background-color: #80808061;
+  font-weight: bold;
+  right: -200px;
 }
 
 #menu ul li {
@@ -128,7 +137,7 @@ figure {
 }
 
 #menu.mostrar {
-  left: 0;
+  right: 0;
 }
 
 .logoDH {

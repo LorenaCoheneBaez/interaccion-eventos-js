@@ -8,7 +8,7 @@ window.onload = function(){
         body.style.backgroundColor = '#7f7f7f'
         body.classList.add('fondoMoviesList');
         moviesListTitulo.style.color = 'white';
-        moviesListTitulo.style.backgroundColor = 'teal';
+        moviesListTitulo.style.backgroundColor = 'rgb(42, 19, 141)';
     })
     
     moviesListTitulo.innerHTML = 'LISTADO DE PELÍCULAS';
