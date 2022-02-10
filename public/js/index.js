@@ -8,10 +8,10 @@ window.onload = function(){
     
     let nombre = prompt('Ingrese su nombre');
     console.log(nombre);
-    if(nombre !=''){
-        subtitulo.innerHTML += ' '+ nombre;
-    }else{
+    if (nombre == '' || nombre == null){
         subtitulo.innerHTML += ' INVITADO';
+    }else{
+        subtitulo.innerHTML += ' ' + nombre; 
     }
         
     subtitulo.style.textTransform = 'uppercase';
